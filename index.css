@@ -1,8 +1,80 @@
 body {
     margin: 0;
+    background: #1B244A;
 }
 
 .container {
-    display: flex;
     justify-content: space-around;
+    display: flex;
+ 
+}
+
+h3 {
+    
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+h2 {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+  
+
+    text-align: center;
+
+    color: #F94F6D;
+
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+button {
+
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+   
+    text-align: center;
+
+    color: #6c84c6;
+    box-sizing: border-box;
+
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    
+    border: 2px solid #6c84c6;
+    border-radius: 5px;
+    font-weight:bolder;
+}
+
+#reset-btn {
+    color: red;
+    font-weight:bolder;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, 165%);
+    position:absolute;
+    width:90px;
 }
